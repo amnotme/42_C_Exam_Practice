@@ -6,7 +6,7 @@
 /*   By: lhernand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2017/07/21 00:56:04 by lhernand          #+#    #+#             */
-/*   Updated: 2017/07/21 02:02:46 by lhernand         ###   ########.fr       */
+/*   Updated: 2017/07/21 08:39:01 by lhernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -32,7 +32,6 @@ void		ft_putstr(char *str)
 void		rot_13(char *str)
 {
 	char	*ptr;
-	int		c;
 	int		i;
 
 	ptr = str;
@@ -40,16 +39,13 @@ void		rot_13(char *str)
 	while (str[i] != '\0')
 	{
 		if ((str[i] >= 'a') && (str[i] <= 'z'))
-		{
-			c  = (str[i] - 'a') % 13;
-			if (c > 0)
-				str[i] = str[i] + 1;
-			else
-				str[i] =  str[i] - 13;
-		}
+			str[i] = ((((str[i] - 97) + 13) % 26) + 97);
+		else if ((str[i] >= 'A') && (str[i] <= 'Z'))
+			str[i] = ((((str[i] - 65) + 13) % 26) + 65);
+		else
+			str[i] = str[i];
 		i++;
 	}
-	str[i] = '\0';
 	str = ptr;
 	ft_putstr(str);
 	ft_putchar('\n');
