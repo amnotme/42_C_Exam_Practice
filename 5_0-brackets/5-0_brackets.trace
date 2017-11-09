@@ -1,0 +1,74 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z1r5p11.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Tue Nov  7 17:25:33 PST 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2017/c-exam-alone-in-the-dark-beginner/practice-exam_20171107/lhernand2
+
+= Git history ==================================================================
+$> git -C /var/folders/z1/t2thpgjj75d6sdb93xhsk58r0000gp/T/tmp4AO45Y/user log --pretty='%H - %an, %ad : %s'
+9331f4589580dc487d12af2371415cfbc862dba9 - Leopoldo Hernandez, Tue Nov 7 17:25:22 2017 -0800 : botched brackets
+9e8c8e8000158740c5ad6bc833fc707534ab8f60 - Leopoldo Hernandez, Tue Nov 7 16:32:00 2017 -0800 : added sort_int_tab
+95d3b81e5392358bfade7c05b15bd587add8e5fd - Leopoldo Hernandez, Tue Nov 7 15:37:41 2017 -0800 : added pgcd
+62b23e17b11bcb21310bf0b4edd8748441654221 - Leopoldo Hernandez, Tue Nov 7 15:18:29 2017 -0800 : added wmatch
+876306b2c10c4dd6bbcaf824407569cdcf0a5d9a - Leopoldo Hernandez, Tue Nov 7 14:54:38 2017 -0800 : added ft_putstr
+50af88fed28de347ee9ae02df3a1c8c2a6fd6042 - Leopoldo Hernandez, Tue Nov 7 14:50:19 2017 -0800 : Added aff_last_param
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/z1/t2thpgjj75d6sdb93xhsk58r0000gp/T/tmp4AO45Y/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1706 Nov  7 17:25 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Nov  7 17:25 aff_last_param
+drwxr-xr-x  4 deepthought  deepthought   136 Nov  7 17:25 brackets
+drwxr-xr-x  3 deepthought  deepthought   102 Nov  7 17:25 ft_putstr
+drwxr-xr-x  3 deepthought  deepthought   102 Nov  7 17:25 pgcd
+drwxr-xr-x  3 deepthought  deepthought   102 Nov  7 17:25 sort_int_tab
+drwxr-xr-x  3 deepthought  deepthought   102 Nov  7 17:25 wdmatch
+
+/var/folders/z1/t2thpgjj75d6sdb93xhsk58r0000gp/T/tmp4AO45Y/user/aff_last_param:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1214 Nov  7 17:25 aff_last_param.c
+
+/var/folders/z1/t2thpgjj75d6sdb93xhsk58r0000gp/T/tmp4AO45Y/user/brackets:
+total 32
+-rwxr-xr-x  1 deepthought  deepthought  8608 Nov  7 17:25 a.out
+-rw-r--r--  1 deepthought  deepthought  1763 Nov  7 17:25 brackets.c
+
+/var/folders/z1/t2thpgjj75d6sdb93xhsk58r0000gp/T/tmp4AO45Y/user/ft_putstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1067 Nov  7 17:25 ft_putstr.c
+
+/var/folders/z1/t2thpgjj75d6sdb93xhsk58r0000gp/T/tmp4AO45Y/user/pgcd:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1615 Nov  7 17:25 pgcd.c
+
+/var/folders/z1/t2thpgjj75d6sdb93xhsk58r0000gp/T/tmp4AO45Y/user/sort_int_tab:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1260 Nov  7 17:25 sort_int_tab.c
+
+/var/folders/z1/t2thpgjj75d6sdb93xhsk58r0000gp/T/tmp4AO45Y/user/wdmatch:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1409 Nov  7 17:25 wdmatch.c
+ 
+= brackets =====================================================================
+$> gcc -Wextra -Wall -Werror brackets.c -o user_exe 
+
+Forbidden function call in 'brackets.c': 'printf'
+Grade: -42
+
+= Final grade: -42 =============================================================

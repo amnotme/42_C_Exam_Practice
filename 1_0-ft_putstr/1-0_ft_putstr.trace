@@ -1,0 +1,88 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r4p24.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Tue Nov  7 14:54:59 PST 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.38)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2017/c-exam-alone-in-the-dark-beginner/practice-exam_20171107/lhernand2
+
+= Git history ==================================================================
+$> git -C /var/folders/97/k6p4n199655fq45y35nwkvnr0000gp/T/tmp9RcYNR/user log --pretty='%H - %an, %ad : %s'
+876306b2c10c4dd6bbcaf824407569cdcf0a5d9a - Leopoldo Hernandez, Tue Nov 7 14:54:38 2017 -0800 : added ft_putstr
+50af88fed28de347ee9ae02df3a1c8c2a6fd6042 - Leopoldo Hernandez, Tue Nov 7 14:50:19 2017 -0800 : Added aff_last_param
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/97/k6p4n199655fq45y35nwkvnr0000gp/T/tmp9RcYNR/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  545 Nov  7 14:55 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought  102 Nov  7 14:55 aff_last_param
+drwxr-xr-x  3 deepthought  deepthought  102 Nov  7 14:55 ft_putstr
+
+/var/folders/97/k6p4n199655fq45y35nwkvnr0000gp/T/tmp9RcYNR/user/aff_last_param:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1214 Nov  7 14:55 aff_last_param.c
+
+/var/folders/97/k6p4n199655fq45y35nwkvnr0000gp/T/tmp9RcYNR/user/ft_putstr:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1067 Nov  7 14:55 ft_putstr.c
+ 
+= ft_putstr ====================================================================
+$> gcc -Wextra -Wall -Werror main.c ft_putstr.c -o user_exe 
+
+= Test 1 ===================================================
+$> ./rfsflcs6zqyht7byptrwbbex "xCQFgn7Vp6ebLS"
+$> diff -U 3 user_output_test1 test1.output | cat -e
+
+Diff OK :D
+= Test 2 ===================================================
+$> ./4s6sbt8y7l9zkx4br1zvdscg "8bO0tjwJMxKkB1a"
+$> diff -U 3 user_output_test2 test2.output | cat -e
+
+Diff OK :D
+= Test 3 ===================================================
+$> ./reu6obxv2oc73ijxjd0y6sym "AaRD"
+$> diff -U 3 user_output_test3 test3.output | cat -e
+
+Diff OK :D
+= Test 4 ===================================================
+$> ./0dasgm78smvhzsho4h4zd4uw "XOa1ijVdfR0tLuMg iCv7ZFHwVaYed9gm b5OXF8g aT9qE"
+$> diff -U 3 user_output_test4 test4.output | cat -e
+
+Diff OK :D
+= Test 5 ===================================================
+$> ./6xjzjq8bzx2augz8kw2ff34c "tTE4i9FzoJ3MCn2b heLtcYrMVT 7DAk VhdmY1zj T1o2KC9Vx7IaDOFYN 7FRa23HGvtIekzOul 29Hh5oxVU0Nlaj8tC kh6Y esrxjBltUAkGy391 dEsP n5ZPLXRBpVYz1ihNH oWBFraze YrxM g1sJ6P9OmFBky8rda NYsSDlh9q mN80CqcgQ bXj0ExJDts gjp"
+$> diff -U 3 user_output_test5 test5.output | cat -e
+
+Diff OK :D
+= Test 6 ===================================================
+$> ./eqa0wink8y6kje5wl8qd7air "FXh 2PqENO SKF3fY02pUMHbx4d 9qAD 04LdZ ikdIB LeSHtOz Yoy5cJ6QlhB0XDHE JQMsI 1KBIeq4T5WE EgBxAqmfOlQ5PcZ 526xjr1h8k gIzh iAefyzJlw2RQC541 fvnd1wSKQ2VCNI56j MaL t47wSexPh q2TfMvPh1byKAR"
+$> diff -U 3 user_output_test6 test6.output | cat -e
+
+Diff OK :D
+= Test 7 ===================================================
+$> ./ysgfgegx0kepujghzlbpqfp7 "ieOJ6TD t1A5QEhzCFKjT AoN f9pVD50onwuYEa v4PJLgf7hAzUw8o Q8D2ZPYmRENcU"
+$> diff -U 3 user_output_test7 test7.output | cat -e
+
+Diff OK :D
+= Test 8 ===================================================
+$> ./q3g81umqmwb9kkadezmreyp6 
+$> diff -U 3 user_output_test8 test8.output | cat -e
+
+Diff OK :D
+Grade: 1
+
+= Final grade: 1 ===============================================================
