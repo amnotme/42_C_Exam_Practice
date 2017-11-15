@@ -1,0 +1,68 @@
+= Host-specific information ====================================================
+$> hostname; uname -msr
+e1z3r2p21.42.us.org
+Darwin 15.6.0 x86_64
+$> date
+Tue Nov 14 02:25:59 PST 2017
+$> gcc --version
+Configured with: --prefix=/Applications/Xcode.app/Contents/Developer/usr --with-gxx-include-dir=/usr/include/c++/4.2.1
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+$> clang --version
+Apple LLVM version 8.0.0 (clang-800.0.42.1)
+Target: x86_64-apple-darwin15.6.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+
+= User files collection ========================================================
+Collecting user files from Vogsphere
+Repository URL: auto-exam/2017/c-exam-alone-in-the-dark-beginner/practice-exam_20171114/lhernand
+
+= Git history ==================================================================
+$> git -C /var/folders/gr/bs13lb011wjb3_ydh5326rym0000gq/T/tmpmlSrT0/user log --pretty='%H - %an, %ad : %s'
+b42542bc53b4fdac4ebbf2e24875397761da3d2c - Leopoldo Hernandez, Tue Nov 14 02:25:26 2017 -0800 : added reverse_bits
+99f705bbb7dbe30554720f8c374a382663f055f1 - Leopoldo Hernandez, Tue Nov 14 01:23:16 2017 -0800 : added search_and_replace
+3c979accf342b00dc8bfc06cd5c9596ca3727f8e - Leopoldo Hernandez, Tue Nov 14 00:56:49 2017 -0800 : added aff_last_param
+4dbc05ce4970f0bcb55829660299bafa8256e0de - Leopoldo Hernandez, Tue Nov 14 00:50:31 2017 -0800 : Added maff_alpha.c
+ 
+= Collected files ==========================================
+$> ls -lAR /var/folders/gr/bs13lb011wjb3_ydh5326rym0000gq/T/tmpmlSrT0/user
+total 8
+-rw-r--r--  1 deepthought  deepthought  1109 Nov 14 02:26 __GIT_HISTORY
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 14 02:26 aff_last_param
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 14 02:26 maff_alpha
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 14 02:26 reverse_bits
+drwxr-xr-x  3 deepthought  deepthought   102 Nov 14 02:26 search_and_replace
+
+/var/folders/gr/bs13lb011wjb3_ydh5326rym0000gq/T/tmpmlSrT0/user/aff_last_param:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1216 Nov 14 02:26 aff_last_param.c
+
+/var/folders/gr/bs13lb011wjb3_ydh5326rym0000gq/T/tmpmlSrT0/user/maff_alpha:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1150 Nov 14 02:26 maff_alpha.c
+
+/var/folders/gr/bs13lb011wjb3_ydh5326rym0000gq/T/tmpmlSrT0/user/reverse_bits:
+total 8
+-rw-r--r--  1 deepthought  deepthought  993 Nov 14 02:26 reverse_bits.c
+
+/var/folders/gr/bs13lb011wjb3_ydh5326rym0000gq/T/tmpmlSrT0/user/search_and_replace:
+total 8
+-rw-r--r--  1 deepthought  deepthought  1546 Nov 14 02:26 search_and_replace.c
+ 
+= reverse_bits =================================================================
+$> gcc -Wextra -Wall -Werror main.c reverse_bits.c -o user_exe 
+reverse_bits.c:17:14: error: expression result unused [-Werror,-Wunused-value]
+        (octet >> 4 | octet << 4);      
+         ~~~~~~~~~~ ^ ~~~~~~~~~~
+reverse_bits.c:18:1: error: control reaches end of non-void function [-Werror,-Wreturn-type]
+}
+^
+2 errors generated.
+
+Could not compile 'user_exe'
+Grade: 0
+
+= Final grade: 0 ===============================================================
