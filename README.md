@@ -6,6 +6,7 @@ continuously get updated and maintained.  You should only use this repo for
 stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.  
 
 ### Level-0
+    *0_0-aff_a*
 ----------------------------------------------------------------------------  
 ### Level-1
 ----------------------------------------------------------------------------  
