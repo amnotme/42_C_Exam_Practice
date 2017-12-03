@@ -6,7 +6,17 @@ continuously get updated and maintained.  You should only use this repo for
 stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.  
 
 ### Level-0
-    *0_0-aff_a*
+    *0_0-aff_a*  
+    *0_0-ft_countdown*  
+    *0_0-ft_print_numbers*  
+    *0_0-hello*  
+    *0_0-maff_alpha*  
+    *0_0-aff_first_param*  
+    *0_0-aff_last_param*  
+    *0_0-maff_revalpha*  
+    *0_0-only_a*
+    *0_0-only_z*
+    *0_0-aff_z*
 ----------------------------------------------------------------------------  
 ### Level-1
 ----------------------------------------------------------------------------  
