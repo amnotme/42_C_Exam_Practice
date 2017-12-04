@@ -39,11 +39,13 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *2_0-print_bits*  
     *2_0-reverse_bits*  
     *2_0-swap_bits*  
+    *2_0-union*  
     *2_0-wdmatch*  
 ----------------------------------------------------------------------------  
 ### Level-3
 
     *3_0-expand_str*  
+    *3-0-epur_str*  
     *3_0-pgcd*  
     *3_0-str_capitalizer*  
 ----------------------------------------------------------------------------  
@@ -51,7 +53,8 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
 
     *4_0-fprime*  
     *4_0-ft_list_foreach*  
-    *4_0-ft_list_remove_if*  
+    *4_0-ft_list_remove_if* 
+    *4_0-rev_wstr*
     *4_0-sort_int_tab*  
 ----------------------------------------------------------------------------  
 ### Level-5
