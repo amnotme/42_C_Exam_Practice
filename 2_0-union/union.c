@@ -5,35 +5,39 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: lhernand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/12/02 20:13:35 by lhernand          #+#    #+#             */
-/*   Updated: 2017/12/02 21:59:39 by lhernand         ###   ########.fr       */
+/*   Created: 2017/12/03 19:23:40 by lhernand          #+#    #+#             */
+/*   Updated: 2017/12/03 22:46:15 by lhernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
-void		ft_putchar(char c)
-{
-	write(1, &c ,1);
-}
-
-void		ft_putstr(char *str)
+void			ft_putstr(char *str)
 {
 	int i;
 
 	i = 0;
 	while (str[i])
 	{
-		ft_putchar(str[i]);
+		write(1, &str[i], 1);
 		i++;
 	}
-	ft_putchar('\n');
 }
 
-int			is_there(char c, char *uni)
+int				ft_strlen(char *str)
 {
 	int i;
-	
+
+	i = 0;
+	while (str[i])
+		i++;
+	return (i);
+}
+
+int				is_there(char c, char *uni)
+{
+	int i;
+
 	i = 0;
 	while (uni[i])
 	{
@@ -44,42 +48,45 @@ int			is_there(char c, char *uni)
 	return (0);
 }
 
-void		ft_union(char *s1, char *s2)
+void			ft_union(char *arg1, char *arg2)
 {
 	int i;
 	int j;
-	int z;
-	char u[1000];
+	char u[ft_strlen(arg1) + ft_strlen(arg2) + 1];
 
 	i = 0;
 	j = 0;
-	z = 0;
-	while (s1[i])
+	u[j] = '\0';
+	while (arg1[i])
 	{
-		if (!is_there(s1[i], u))
+		if (!is_there(arg1[i], u))
 		{
-			u[z] = s1[i];
-			z++;
+			u[j] = arg1[i];
+			j++;
+			u[j] = '\0';
 		}
 		i++;
 	}
-	while (s2[j])
+
+	i = 0;
+	while (arg2[i])
 	{
-		if (!is_there(s2[j], u))
+		if(!is_there(arg2[i], u))
 		{
-			u[z] = s2[j];
-			z++;
+			u[j] = arg2[i];
+			j++;
+			u[j] = '\0';
 		}
-		j++;
+		i++;
 	}
-	u[z] = '\0';
 	ft_putstr(u);
+	ft_putstr("\n");
 }
 
-int			main(int argc, char **argv)
+int				main(int argc, char **argv)
 {
 	if (argc != 3)
-		ft_putchar('\n');
+		ft_putstr("\n");
 	else
 		ft_union(argv[1], argv[2]);
 	return (0);

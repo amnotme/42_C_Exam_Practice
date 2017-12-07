@@ -46,6 +46,7 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
 
     *3_0-expand_str*  
     *3-0-epur_str*  
+    *3_0-ft_list_size*  
     *3_0-hidnp*  
     *3_0-pgcd*  
     *3_0-str_capitalizer*  
