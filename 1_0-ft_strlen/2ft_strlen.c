@@ -1,27 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   is_power_of_2.c                                    :+:      :+:    :+:   */
+/*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: lhernand <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/12/02 19:09:36 by lhernand          #+#    #+#             */
-/*   Updated: 2017/12/02 19:18:03 by lhernand         ###   ########.fr       */
+/*   Created: 2017/12/03 14:08:01 by lhernand          #+#    #+#             */
+/*   Updated: 2017/12/03 14:09:06 by lhernand         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-int				is_power_of_2(unsigned int n)
+int			ft_strlen(char *str)
 {
 	int i;
 
-	i = 1;
-	if (i < 1)
-		return (0);
-	while (i * i <= n)
-	{
-		if (i * i == n)
-			return (1);
+	i = 0;
+	while (str[i])
 		i++;
-	}
-	return (0);
+	return (i);
 }
