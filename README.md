@@ -65,4 +65,5 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
 
     *5_0-brackets*  
     *5_0-rpn_calc*  
+    *5_0-print_memory*
 ----------------------------------------------------------------------------  
