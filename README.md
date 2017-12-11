@@ -18,6 +18,8 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *0_0-only_a*  
     *0_0-only_z*  
     *0_0-aff_z* 
+
+
 ----------------------------------------------------------------------------  
 ### Level-1
 
