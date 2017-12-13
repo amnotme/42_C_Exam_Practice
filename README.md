@@ -59,7 +59,8 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *4_0-ft_list_foreach*  
     *4_0-ft_list_remove_if* 
     *4_0-itoa*  
-    *4_0-rev_wstr*
+    *4_0-rev_wstr*  
+    *4_0-rostring*  
     *4_0-sort_int_tab*  
     *4_0-sort_list*  
 ----------------------------------------------------------------------------  
