@@ -19,7 +19,6 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *0_0-only_z*  
     *0_0-aff_z* 
 
-
 ----------------------------------------------------------------------------  
 ### Level-1
 
@@ -32,6 +31,7 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *1_0-ulstr*  
     *1_0-rot_13*  
     *1_0-first_word*  
+
 ----------------------------------------------------------------------------  
 ### Level-2
 
@@ -44,15 +44,19 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *2_0-ft_strrev*  
     *2_0-union*  
     *2_0-wdmatch*  
+
 ----------------------------------------------------------------------------  
 ### Level-3
 
     *3_0-expand_str*  
     *3-0-epur_str*  
-    *3_0-ft_list_size*  
+    *3_0-ft_list_size*
+    *3_0-ft_range*  
+    *3_0-ft_rrange*  
     *3_0-hidnp*  
     *3_0-pgcd*  
     *3_0-str_capitalizer*  
+
 ----------------------------------------------------------------------------  
 ### Level-4
 
