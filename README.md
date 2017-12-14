@@ -40,7 +40,8 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *2_0-is_power_of_2*  
     *2_0-print_bits*  
     *2_0-reverse_bits*  
-    *2_0-swap_bits*  
+    *2_0-swap_bits* 
+    *2_0-ft_strrev*  
     *2_0-union*  
     *2_0-wdmatch*  
 ----------------------------------------------------------------------------  
