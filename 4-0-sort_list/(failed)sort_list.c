@@ -1,13 +1,17 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   sort_list.c                                        :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: lhernand <marvin@42.fr>                    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2017/12/02 01:07:33 by lhernand          #+#    #+#             */
-/*   Updated: 2017/12/02 01:07:35 by lhernand         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#include "list.h"
 
-
+t_list		*sort_list(t_list *lst, int (*cmp)(int, int))
+{
+	t_list *ptr;
+	int temp;
+	int flag = 1;
+	ptr = lst;
+	while (flag == 1)
+	{
+		if (cmp(lst->data, lst->next.data) == 0)
+			
+	}
+	
+	lst = ptr;
+	return (lst);
+}

@@ -54,6 +54,7 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *3_0-ft_range*  
     *3_0-ft_rrange*  
     *3_0-hidnp*  
+    *3_0-print_hex*  
     *3_0-pgcd*  
     *3_0-str_capitalizer*  
 
@@ -67,7 +68,9 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *4_0-rev_wstr*  
     *4_0-rostring*  
     *4_0-sort_int_tab*  
-    *4_0-sort_list*  
+    *4_0-sort_list* 
+    *4_0-ft_split*  
+
 ----------------------------------------------------------------------------  
 ### Level-5
 
