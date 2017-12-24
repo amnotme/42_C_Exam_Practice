@@ -6,7 +6,7 @@ continuously get updated and maintained.  You should only use this repo for
 stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.  
 
 ### Level-0
-
+    
     *0_0-aff_a*  
     *0_0-ft_countdown*  
     *0_0-ft_print_numbers*  
@@ -30,7 +30,6 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *1_0-ulstr*  
     *1_0-rot_13*  
     *1_0-first_word*  
-
 ----------------------------------------------------------------------------  
 ### Level-2
 
@@ -43,7 +42,6 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *2_0-ft_strrev*  
     *2_0-union*  
     *2_0-wdmatch*  
-
 ----------------------------------------------------------------------------  
 ### Level-3
 
@@ -56,7 +54,6 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *3_0-print_hex*  
     *3_0-pgcd*  
     *3_0-str_capitalizer*  
-
 ----------------------------------------------------------------------------  
 ### Level-4
 
@@ -69,7 +66,6 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *4_0-sort_int_tab*  
     *4_0-sort_list* 
     *4_0-ft_split*  
-
 ----------------------------------------------------------------------------  
 ### Level-5
 
