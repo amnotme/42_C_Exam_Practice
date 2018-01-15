@@ -52,9 +52,10 @@ stuyding purposes only and not as an exhaustive guide to aceing the 42 exams.
     *3_0-ft_range*  
     *3_0-ft_rrange*  
     *3_0-hidnp*  
+	*3_0-add_prime_sum*  
     *3_0-print_hex*  
     *3_0-pgcd*  
-    *3_0-str_capitalizer*  
+	*3_0-str_capitalizer*  
 ----------------------------------------------------------------------------  
 ### Level-4
 
